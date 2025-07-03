@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injections - Mutação Alpha</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícone do carrinho (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body data-category="injections"> <!-- IDENTIFICADOR DA CATEGORIA -->
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html" style="display: inline-block;">
+                    <!-- Substitua pelo seu logo -->
+                    <img src="images/MutAplha.png" alt="Mutação Alpha" style="height: 50px;">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <!-- Link ativo para esta página -->
+                    <li><a href="index.html" class="active">Injections</a></li>
+                    <li><a href="orals.html">Orals</a></li>
+                    <li><a href="sarms.html">Sarms</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </div>
+        </header>
+
+        <main>
+            <h1>Injections</h1>
+
+            <!-- Filtros -->
+            <div class="filters">
+                <label for="substance-filter">Filtrar por Substância:</label>
+                <select id="substance-filter">
+                    <option value="all">Todas as Substâncias</option>
+                    <!-- Opções preenchidas pelo JavaScript -->
+                </select>
+
+                <label for="brand-filter">Filtrar por Marca:</label>
+                <select id="brand-filter">
+                    <option value="all">Todas as Marcas</option>
+                    <!-- Opções preenchidas pelo JavaScript -->
+                </select>
+            </div>
+
+            <!-- Grelha de Produtos (preenchida pelo JavaScript) -->
+            <div class="product-grid" id="product-grid">
+                <p>A carregar produtos...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sua Marca. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script> <!-- Script no fim do body -->
+    <!-- Modal para Zoom da Imagem -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-modal" title="Fechar">×</span>
+        <img class="modal-image" id="modalImage" src="" alt="Imagem do Produto Ampliada">
+    </div>
+    <!-- Fim do Modal -->
+	
+</body>
+</html>
