@@ -208,7 +208,7 @@ const allProducts = [
     { id: 'oral_dbol_aurora', name: 'Dianabol - Aurora Remedies', substance: 'Dianabol', brand: 'Aurora Remedies', price: 32, image: 'images/Dianabol/oral_dbol_10_aurora.png', category: 'orals', packaging: '100 comps (10 mg/comp)', stockStatus: 'inStock' },
 
     // Testosterone (Methyltestosterone)
-    { id: 'oral_methtest_rewix', name: 'Methyltestosterone - Rewix Labs', substance: 'Testosterone (Methyltestosterone)', brand: 'Rewix Labs', price: 42, image: 'images/Methyltestosterone/oral_10_Methyltestosterone.png', category: 'orals', packaging: '100 comps (10 mg/comp)', stockStatus: 'inStock' },
+    { id: 'oral_methtest_rewix', name: 'Methyltestosterone - Rewix Labs', substance: 'Testosterone (Methyltestosterone)', brand: 'Rewix Labs', price: 42, image: 'images/Methyltestosterone/oral_10_methyltestosterone_rewix.png', category: 'orals', packaging: '100 comps (10 mg/comp)', stockStatus: 'inStock' },
 
     // Anavar (Oxandrolona)
     { id: 'oral_anavar_rewix', name: 'Anavar (Oxandrolona) - Rewix Labs', substance: 'Anavar (Oxandrolona)', brand: 'Rewix Labs', price: 60, image: 'images/Anavar/oral_anavar_rewix.png', category: 'orals', packaging: '100 comps (10 mg/comp)', stockStatus: 'inStock' },
