@@ -149,7 +149,7 @@ const allProducts = [
 
     // Peptídios - Biopeptide (Embalagem padrão de frasco para liofilizado)
     { id: 'inj_pep_acvr', name: 'ACVR2B (ACE-031) - Biopeptide', substance: 'Peptídios - Biopeptide', brand: 'Biopeptide', price: 75, image: 'images/BIO-PEPTIDE/ACVR2B.png', category: 'injections', packaging: 'Frasco Liofilizado (10 mg)', stockStatus: 'inStock' },
-    { id: 'inj_pep_bpc', name: 'BPC-157 - Biopeptide', substance: 'Peptídios - Biopeptide', brand: 'Biopeptide', price: 33, image: 'images/bcp_157.png', category: 'injections', packaging: 'Frasco Liofilizado (5 mg)', stockStatus: 'inStock' },
+    { id: 'inj_pep_bpc', name: 'BPC-157 - Biopeptide', substance: 'Peptídios - Biopeptide', brand: 'Biopeptide', price: 33, image: 'images/BIO-PEPTIDE/bcp_157.png', category: 'injections', packaging: 'Frasco Liofilizado (5 mg)', stockStatus: 'inStock' },
     { id: 'inj_pep_cjc', name: 'CJC-1295 - Biopeptide', substance: 'Peptídios - Biopeptide', brand: 'Biopeptide', price: 35, image: 'images/BIO-PEPTIDE/cjc_1295.png', category: 'injections', packaging: 'Frasco Liofilizado (5 mg)', stockStatus: 'inStock' },
     { id: 'inj_pep_des', name: 'Des (1-3) IGF - Biopeptide', substance: 'Peptídios - Biopeptide', brand: 'Biopeptide', price: 46, image: 'images/BIO-PEPTIDE/des_igf.png', category: 'injections', packaging: 'Frasco Liofilizado (1 mg)', stockStatus: 'inStock' },
     { id: 'inj_pep_folli', name: 'Follistatin 344 - Biopeptide', substance: 'Peptídios - Biopeptide', brand: 'Biopeptide', price: 41, image: 'images/BIO-PEPTIDE/folis_1.png', category: 'injections', packaging: 'Frasco Liofilizado (1mg)', stockStatus: 'inStock' },
