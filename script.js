@@ -293,8 +293,8 @@ const allProducts = [
 	{ id: 'sarm_card_novo', name: 'Cardarine GW-501516 - NovoSarms', substance: 'Cardarine', brand: 'NovoSarms', price: 58, image: 'images/SARMS/sarm_card_50_novo.png', category: 'sarms', packaging: '30 ml (50 mg/ml)', stockStatus: 'inStock' },
         { id: 'sarm_lgd_rewix', name: 'Ligandrol LGD-4033 - Rewix Labs', substance: 'Ligandrol', brand: 'Rewix Labs', price: 55, image: 'images/SARMS/sarm_lgd_10_rewix.png', category: 'sarms', packaging: '100 tabs (10 mg/comp)', stockStatus: 'inStock' },
         { id: 'sarm_lgd_novo', name: 'Ligandrol LGD-4033 - NovoSarms', substance: 'Ligandrol', brand: 'NovoSarms', price: 60, image: 'images/SARMS/sarm_lgd_20_novo.png', category: 'sarms', packaging: '30 ml (20 mg/ml)', stockStatus: 'inStock' },
-	{ id: 'sarm_nutr_rewix', name: 'Nutrobal MK-677 - Rewix Labs', substance: 'Ibutamoren', brand: 'Rewix Labs', price: 63, image: 'images/SARMS/sarm_nutr_25_rewix.png', category: 'sarms', packaging: '100 comp (25 mg/comp)', stockStatus: 'inStock' },
-	{ id: 'sarm_nutr_novo', name: 'Nutrobal MK-677 - NovoSarms', substance: 'Ibutamoren', brand: 'NovoSarms', price: 67, image: 'images/SARMS/sarm_nutr_50_novo.png', category: 'sarms', packaging: '30ml (50 mg/ml)', stockStatus: 'inStock' },
+	{ id: 'sarm_nutr_rewix', name: 'MK-677 - Rewix Labs', substance: 'MK-677', brand: 'Rewix Labs', price: 63, image: 'images/SARMS/sarm_nutr_25_rewix.png', category: 'sarms', packaging: '100 comp (25 mg/comp)', stockStatus: 'inStock' },
+	{ id: 'sarm_nutr_novo', name: 'MK-677 - NovoSarms', substance: 'MK-677', brand: 'NovoSarms', price: 67, image: 'images/SARMS/sarm_nutr_50_novo.png', category: 'sarms', packaging: '30ml (50 mg/ml)', stockStatus: 'inStock' },
         { id: 'sarm_osta_rewix', name: 'Ostarine MK-2866 - Rewix Labs', substance: 'Ostarine', brand: 'Rewix Labs', price: 61, image: 'images/SARMS/sarm_osta_10_rewix.png', category: 'sarms', packaging: '100 comp (10 mg/comp)', stockStatus: 'inStock' },
         { id: 'sarm_osta_novo', name: 'Ostarine MK-2866 - NovoSarms', substance: 'Ostarine', brand: 'NovoSarms', price: 62, image: 'images/SARMS/sarm_osta_50_novo.png', category: 'sarms', packaging: '30ml (50 mg/ml)', stockStatus: 'inStock' },
 	{ id: 'sarm_S23_rewix', name: 'S-23 - Rewix Labs', substance: 'S-23', brand: 'Rewix Labs', price: 63, image: 'images/SARMS/sarm_S23_10_rewix.png', category: 'sarms', packaging: '100 comp (10 mg/comp)', stockStatus: 'inStock' },
@@ -657,3 +657,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCartCount();
 
 }); // Fim DOMContentLoaded
+
